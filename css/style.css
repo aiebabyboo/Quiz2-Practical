@@ -10,9 +10,10 @@ body {
 }
 #hero {
     text-align: center;
+    background-image: url('/image/taylor-swift-eras-tour-kansas-city-2023-billboard-1548.webp');
 }
 .main-header {
-    background-color: bisque;
+    background-color: rgb(255, 221, 254);
     color: rgb(94, 94, 94);
     padding: 16px 0;
 }
@@ -25,6 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .logo {
     font-size: 1.5rem;
@@ -53,6 +55,9 @@ body {
     color:blueviolet;
 }
 
+h1{
+    align-items: center;
+}
 .main-footer {
     background-color: rgb(255, 255, 255);
     color:black;
