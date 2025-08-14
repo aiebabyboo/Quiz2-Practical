@@ -15,3 +15,5 @@ CSS Variable
 - Learn the basic
 - Be patient, it'll take time!
 - Focus on the small project first
+
+Link:https://aiebabyboo.github.io/Quiz2-Practical/
