@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIVI PHAM - QUIZ 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Font -->
-    <link rel="preconnect" href="">
-    <link rel="stylesheet" href="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <!-- Navigation bar -->
-        <nav>
-            <a href="index.html">VIVI PHAM</a>  
+        <nav class="header-container">
+            <a href="index.html" class="logo">VIVI PHAM</a>  
 
-            <div>
+            <div class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="#">Products</a>
                 <a href="#">App</a>
@@ -24,11 +24,11 @@
     
     <main>
         <!-- Hero Section -->
-        <section id="hero">
-            <div>
+        <section id="hero" class="relative h-screen flex items-center justify-between px-16 pt-10">
+            <div class="max-w-xl z-10">
                 <span>HOT NEWS</span>
-                <h1>HELLO WORLD!</h1>
-                <p>IT'S ME! HI, I'M THE PROBLEM IT'S ME<span>TS12 Is Comming!</span></p>
+                <h1 class="text-5xl font-light tracking-wide leading-tight mb-6 text-white">HELLO WORLD!</h1>
+                <p class="text-xl font-medium mb-4 text-">IT'S ME! HI, I'M THE PROBLEM IT'S ME<span><br>TS12 Is Comming!</span></p>
                 <div>
             </div>
 
@@ -38,8 +38,8 @@
         <section id="about">
             <div>
                 <div>
-                    <p>Our Story</p>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget tempor mauris. Nam quis enim ac lacus bibendum finibus. Cras aliquam felis nulla. Donec ex dui, congue suscipit diam sit amet, luctus imperdiet dolor. Nunc varius non mauris eu fringilla. Nunc varius id nisi non ultrices. Nulla a erat ut lacus faucibus finibus.</h2>
+                    <h2>Our Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget tempor mauris. Nam quis enim ac lacus bibendum finibus. Cras aliquam felis nulla. Donec ex dui, congue suscipit diam sit amet, luctus imperdiet dolor. Nunc varius non mauris eu fringilla. Nunc varius id nisi non ultrices. Nulla a erat ut lacus faucibus finibus.</p>
                 </div>
                 <div>
                     <span>Media/ image placeholder</span>
@@ -47,7 +47,7 @@
             </div>
         </section>
 
-        <footer>
+        <footer class="main-footer">
             <div>
                 <div>
                     <p>&copy;2025 VIVI PHAM</p>
